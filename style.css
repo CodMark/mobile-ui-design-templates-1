@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui;
+    font-weight: 600;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b9c1ee;
+}
+.frem{
+    width: 360px;
+    height: 640px;
+    background: black;
+    border-radius: 26px;
+    box-shadow: 7px 8px 20px #0000004a;
+    padding: 27px 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.frem .apps-title{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 13px 0px 13px;
+}
+
+.frem .apps-title img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.frem .apps-title .title{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.frem .apps-title .title p{
+    color: white;
+    font-size: 23px;
+}
+
+.frem .apps-title .title h4{
+    color: #797979;
+    font-size: 15px;
+}
+.frem .profile-area{
+    width: 100%;
+    height: 16rem;
+    margin-top: 12px;
+    background: url('./glowing-fiore-rosso-sfondo-2560x1080_14.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.frem .profile-area .num{
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}
+
+.frem .profile-area .num p:nth-child(1){
+    color: #4a4a4a;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.frem .profile-area .num p:nth-child(2){
+    color: #575757;
+    font-size: 32px;
+    font-weight: 700;
+}
+.frem .profile-area .logo-area{
+    width: 86px;
+    height: 78px;
+    position: absolute;
+    right: 9px;
+    bottom: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.frem .profile-area .logo-area .logo{
+    width: 50px;
+    height: 50px;
+    background: url('./logo.png');
+    background-position: center;
+    background-size: 77px;
+    border-radius: 50%;
+}
+
+.frem .profile-area .logo-area p{
+    color: #dddddd;
+    font-size: 15px;
+}
+
+.frem .text-des{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    margin-top: 7px;
+}
+.frem .text-des p{
+    font-size: 15px;
+    color: #696969;
+}
+
+.frem .cat-area {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.frem .cat-area .cat{
+    width: 86px;
+    height: 111px;
+    border: 1px solid #252525;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frem .cat-area .cat img{
+    width: 39px;
+    height: 39px;
+}
+
+.frem .cat-area .cat p{
+    font-size: 12px;
+    color: #a3a3a3;
+}
+
+.frem .cat-area .cat h2{
+    font-size: 20px;
+}
+
+.frem .add-blog{
+    width: 1005;
+    height: 59px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frem .add-blog a{
+    display: flex;
+    align-items: center;
+    background: #5e34ff;
+    padding: 11px;
+    border-radius: 14px;
+    text-decoration: none;
+}
+
+.frem .add-blog a img{
+    width: 17px;
+    margin-right: 6px;
+}
+
+.frem .add-blog a p{
+    font-size: 17px;
+}
